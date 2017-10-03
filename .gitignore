@@ -90,6 +90,7 @@ ENV/
 
 # PyCharm
 .idea
+*.iml
 
 # logs
 logs/
@@ -97,9 +98,21 @@ logs/
 # pki
 pki/
 
-# config
-configs/blockchain1.yml
-configs/blockchain2.yml
-configs/blockchain3.yml
-configs/blockchain4.yml
+# .DS_Store
+.DS_Store
 
+# config
+configs/
+
+#docker
+docker/custom*compose.yml
+
+#eclipse,pydev
+.metadata/
+.project
+.pydevproject
+
+# Emacs
+
+
+~
